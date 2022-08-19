@@ -1,2 +1,5 @@
 def divide(a,b):
-    retugit push --set-upstream origin add-divide-feature
+    if a == 0 or b == 0:
+        print('Invalid!')
+    else:
+        return a/b
